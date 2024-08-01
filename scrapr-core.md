@@ -34,7 +34,11 @@ import { IScraprCore, IScraprCoreSearchInput, IScraprCoreSearchOutput } from "da
 
 export class ScraprCore: IScraprCore {
   /**
-   * @params {IScraprCoreSearchInput} params
+   * ScraprCore
+   * 
+   * A class that supports SERP data searches / scrapes.
+   *
+   * @param {IScraprCoreSearchInput} params
    * @return IScraprCoreSearchOutput[]
    */
   public static search(...params:  IScraprCoreSearchInput): IScraprCoreSearchOutput[] {
