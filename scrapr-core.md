@@ -1,4 +1,4 @@
-# Package: *scrapr-core*
+# scrapr-core
 
 ## Description
 
@@ -23,7 +23,7 @@
 - scrapr-core-interfaces
 - scrapr-core-service-registry
 
-## Pseudo code: ScraprCore
+## Pseudo code
 
 ```TypeScript
 import { ParamFilter } from "./ParamFilter";
